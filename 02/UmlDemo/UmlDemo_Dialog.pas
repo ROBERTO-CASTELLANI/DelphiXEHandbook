@@ -33,7 +33,7 @@ uses
 procedure TUmlDialogForm.btnPickClick(Sender: TObject);
 begin
   // messaggio
-  //ShowMessage('Pik');
+  ShowMessage('Pik ripristinato');
 end;
 
 constructor TUmlDialogForm.Create(AOwner: TComponent);

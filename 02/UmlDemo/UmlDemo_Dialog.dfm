@@ -21,6 +21,7 @@ object UmlDialogForm: TUmlDialogForm
     Height = 25
     Caption = 'btnPick'
     TabOrder = 0
+    OnClick = btnPickClick
   end
   object DBGrid1: TDBGrid
     Left = 24
