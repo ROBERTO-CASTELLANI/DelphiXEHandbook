@@ -11,6 +11,7 @@ type
     btnPick: TButton;
     DBGrid1: TDBGrid;
     DataSource1: TDataSource;
+    procedure btnPickClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,6 +29,12 @@ uses
 {$R *.dfm}
 
 { TUmlDialogForm }
+
+procedure TUmlDialogForm.btnPickClick(Sender: TObject);
+begin
+  // messaggio
+  //ShowMessage('Pik');
+end;
 
 constructor TUmlDialogForm.Create(AOwner: TComponent);
 begin
